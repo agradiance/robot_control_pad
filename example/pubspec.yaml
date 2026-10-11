@@ -1,0 +1,17 @@
+name: robot_control_pad_example
+description: Demo app for robot_control_pad.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  robot_control_pad:
+    path: ../
+
+  material_ui: ^1.6.0
+flutter:
+  uses-material-design: true

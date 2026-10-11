@@ -1,0 +1,19 @@
+name: robot_control_pad
+description: Virtual joysticks, steering wheel, D-pad, telemetry HUD, navigation map and pluggable transports (WebSocket, rosbridge, UDP, TCP) for driving mobile robots, cars, drones and more.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web_socket_channel: ">=2.4.0 <4.0.0"
+
+  material_ui: ^1.6.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
